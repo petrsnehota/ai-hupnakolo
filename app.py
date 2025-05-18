@@ -2,6 +2,7 @@
 from flask import Flask, request, jsonify
 import openai
 import json
+import os
 from feed_parser import load_products
 
 app = Flask(__name__)
